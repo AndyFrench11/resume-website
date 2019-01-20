@@ -120,3 +120,17 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+//Deploy Task
+gulp.task('deploy', function() {
+  var express = require('express')
+  var app = express()
+
+  app.get('/', function (req, res) {
+    res.send('Hello Digital Ocean!')
+  })
+
+  app.listen(3000, function () {
+    console.log('Magic is happening on port 3000!')
+  })
+})
