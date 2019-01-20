@@ -12,7 +12,7 @@ RUN npm install --global gulp
 RUN npm install
 
 # Expose port
-EXPOSE 3003
+EXPOSE 3000
 
 # Run the application
 # CMD ["gulp"]
