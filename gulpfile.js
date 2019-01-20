@@ -131,6 +131,6 @@ gulp.task('deploy', function() {
   })
 
   app.listen(3003, function () {
-    console.log('Magic is happening on port 3000!')
+    console.log('Magic is happening on port 3003!')
   })
 })
