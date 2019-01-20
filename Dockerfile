@@ -16,4 +16,4 @@ EXPOSE 3003
 
 # Run the application
 # CMD ["gulp"]
-CMD ["gulp", "deploy"]
+CMD ["gulp", "dev"]
