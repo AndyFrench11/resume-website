@@ -8,6 +8,7 @@ RUN git clone https://github.com/AndyFrench11/resume-website.git
 WORKDIR /resume-website
 
 # Install all the dependencies
+RUN sudo npm install --global gulp
 RUN npm install
 
 # Expose port
