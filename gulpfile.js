@@ -130,7 +130,7 @@ gulp.task('deploy', function() {
     res.send('Hello Digital Ocean!')
   })
 
-  app.listen(3000, function () {
+  app.listen(3003, function () {
     console.log('Magic is happening on port 3000!')
   })
 })
