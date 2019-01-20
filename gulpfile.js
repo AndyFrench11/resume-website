@@ -109,15 +109,7 @@ gulp.task('default', ['css', 'js', 'vendor']);
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: "./";
-      listen 80;
-      server_name andrewfrench.me;
-  
-      location / {
-          proxy_set_header   X-Forwarded-For $remote_addr;
-          proxy_set_header   Host $http_host;
-          proxy_pass         "http://127.0.0.1:3000";
-      }
+      baseDir: "./"
     }
   });
 });
