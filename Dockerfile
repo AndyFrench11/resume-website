@@ -16,4 +16,4 @@ EXPOSE 3000
 
 # Run the application
 # CMD ["gulp"]
-CMD ["gulp", "dev"]
+CMD ["npm", "start"]
