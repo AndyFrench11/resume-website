@@ -1,5 +1,5 @@
 # Create image from nodejs base image
-FROM node:6
+FROM node:10
 
 # Clone the repo from github
 RUN git clone https://github.com/AndyFrench11/resume-website.git
